@@ -36,7 +36,7 @@ Tech: Streamlit for the UI, Google Gemini for the written plan, Open-Meteo for w
 1. **Clone the repo** (or download and unzip):
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/resilience-planner-2026.git
+   git clonehttps://github.com/Greyheart-V/Gemini_Hackathon/edit/main/README.md
    cd resilience-planner-2026
    ```
 
@@ -169,3 +169,4 @@ This project is open source (e.g. for hackathon or learning use). If you reuse i
 ---
 
 **Resilience Planner 2026 — for farmers across Kenya’s 47 counties.**
+
