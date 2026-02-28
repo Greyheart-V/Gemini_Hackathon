@@ -136,7 +136,7 @@ def init_session_state():
     if "chat_messages" not in st.session_state:
         st.session_state.chat_messages = []
     if "dark_theme" not in st.session_state:
-        st.session_state.dark_theme = False
+        st.session_state.dark_theme = True
 
 
 def setup_gemini():
