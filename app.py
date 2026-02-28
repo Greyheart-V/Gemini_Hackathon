@@ -200,11 +200,18 @@ def get_dark_theme_css():
 
 
 def get_light_theme_css():
-    """Minimal CSS for light theme so sidebar and main area look consistent."""
+    """Light theme: white background and dark text so the app is readable on Streamlit Cloud."""
     return """
     <style>
     .stApp, [data-testid="stAppViewContainer"], main { background-color: #ffffff !important; }
     [data-testid="stSidebar"] { background: #f0f2f6 !important; }
+    /* Force dark text in main content (Streamlit Cloud can show faint grey otherwise) */
+    .stApp h1, .stApp h2, .stApp h3, .stApp p, .stApp span, .stApp label,
+    .stApp .stMarkdown, .stApp .stMetric label, main h1, main h2, main h3,
+    main p, main span, main label, main .stMarkdown, main .stMetric label {
+        color: #1f2937 !important;
+    }
+    main [data-testid="stMetricValue"] { color: #1f2937 !important; }
     </style>
     """
 
