@@ -1,3 +1,4 @@
+#this is an mvp and a display of consept not the final product
 # Resilience Planner 2026 — Climate Bridge
 
 A web app for Kenyan smallholder farmers. You pick your county, soil type, and current crop; the app shows local weather and gives you a written resilience plan: whether it’s advisable to keep growing that crop, what to grow instead, and when to plant. It works on desktop and on mobile (phones and tablets).
@@ -169,4 +170,5 @@ This project is open source (e.g. for hackathon or learning use). If you reuse i
 ---
 
 **Resilience Planner 2026 — for farmers across Kenya’s 47 counties.**
+
 
